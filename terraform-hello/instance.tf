@@ -1,6 +1,6 @@
 resource "google_compute_instance" "terraform" {
-  project      = "barbero-devops-iac"
-  name         = "terraform"
+  project      = "complete-trees-433402-u7"
+  name         = "cloudbbuildterraform"
   machine_type = "n1-standard-1"
   zone         = "us-central1-a"
   boot_disk {
